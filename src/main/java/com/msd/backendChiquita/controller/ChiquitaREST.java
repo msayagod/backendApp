@@ -19,9 +19,14 @@ public class ChiquitaREST {
 		return movieDao.findById(id).get();
 	}
 
-	@GetMapping("/hello")
-	public String getMovie() {
+	@GetMapping("/")
+	public String getHello() {
 		return"Hello world";
 	}
-
+	
+	@GetMapping("/hello")
+	public String getHello2() {
+		return"Buenas tardes";
+	}
+	
 }
