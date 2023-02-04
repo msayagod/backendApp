@@ -18,6 +18,10 @@ public class ChiquitaREST {
 	public Movie getMovie(@PathVariable int id) {
 		return movieDao.findById(id).get();
 	}
-	
+
+	@GetMapping("/hello")
+	public String getMovie() {
+		return"Hello world";
+	}
 
 }
