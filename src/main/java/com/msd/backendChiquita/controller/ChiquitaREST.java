@@ -16,7 +16,7 @@ public class ChiquitaREST {
 	
 	@GetMapping("/api/movie/{id}")
 	public Movie getMovie(@PathVariable int id) {
-		return movieDao.getReferenceById(id);
+		return movieDao.findById(id).get();
 	}
 	
 
