@@ -14,10 +14,10 @@ public class ChiquitaREST {
 	@Autowired
 	private MovieDAO movieDao;
 	
-	@GetMapping("/api/movie/{id}")
-	public Movie getMovie(@PathVariable int id) {
-		return movieDao.findById(id).get();
-	}
+//	@GetMapping("/api/movie/{id}")
+//	public Movie getMovie(@PathVariable int id) {
+//		return movieDao.findById(id).get();
+//	}
 
 	@GetMapping("/")
 	public String getHello() {

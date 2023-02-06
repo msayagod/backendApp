@@ -1,0 +1,4 @@
+com\msd\backendChiquita\model\Movie.class
+com\msd\backendChiquita\BackendChiquitaApplication.class
+com\msd\backendChiquita\persistence\MovieDAO.class
+com\msd\backendChiquita\controller\ChiquitaREST.class
